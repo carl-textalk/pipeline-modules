@@ -159,7 +159,7 @@
         <artifactId>zip-utils</artifactId>
         <version>2.1.4</version>
       </dependency>
-      
+
       <!--
           nlp
       -->
@@ -692,6 +692,14 @@
         <groupId>org.daisy.libs</groupId>
         <artifactId>jnaerator</artifactId>
         <version>0.11-p1</version>
+      </dependency>
+      <!--
+          for tts-adapter-cereproc
+      -->
+      <dependency>
+        <groupId>com.ibm.icu</groupId>
+        <artifactId>icu4j</artifactId>
+        <version>67.1</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
